@@ -4,7 +4,9 @@ import pandas as pd
 
 # Define the FastAPI endpoint
 #API_URL = "http://127.0.0.1:8000"
-API_URL = "http://fastapi-backend:8000"
+#API_URL = "http://fastapi-backend:8000"
+
+API_URL = "https://m4-weekly-backend.onrender.com" # Use your actual backend URL from Render
 
 # Page title
 st.title("Weekly Forecasting Application")
